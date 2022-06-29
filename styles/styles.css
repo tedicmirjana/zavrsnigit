@@ -1,0 +1,26 @@
+html
+{
+   font-size: 14px;
+}
+
+.blog-masthead {
+    background-color: #B34848;
+}
+
+.blog-post-title {
+        text-decoration: underline;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: #B34848;
+ }
+
+.blog-post-title a{
+    color: #B34848;
+    transition: ease-in 0.3s;
+}
+
+.blog-post-title a:hover {
+    color:#b34848;
+    text-decoration: underline;
+}
