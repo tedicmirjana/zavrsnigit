@@ -38,14 +38,10 @@
                 <a class="btn btn-outline-primary" href="#">Older</a>
                 <a class="btn btn-outline-secondary disabled" href="#">Newer</a>
             </nav>
-            <?php include 'sidebar.php' ?>
+           
         </div><!-- /.blog-main -->
 
-    
-        <div class="blog-post">
-            <h2 class="blog-post-title"> <a href="#">Sample blog post</a></h2>
-            <p class="blog-post-meta">January 1, 2014 by <a href="#">Mark</a></p>
-            <p>This blog post shows a few different types of content that's supported and styled with Bootstrap. Basic typography, images, and code are all supported.</p>
-            <hr>
-            <?php include 'footer.php' ?>
+<?php include 'sidebar.php' ?>
+<?php include 'footer.php' ?>    
+
 </html>
